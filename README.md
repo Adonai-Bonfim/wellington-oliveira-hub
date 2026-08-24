@@ -1,286 +1,146 @@
-# Wellington Oliveira - Bio Inteligente
-
-# Landing Page de Links — Wellington Oliveira
-
-
-
-
-Crie uma landing page de links **mobile-first**, voltada para o político **Wellington Oliveira**, seguindo fielmente a identidade visual do modelo de referência: visual premium, moderno, cinematográfico e institucional, com todos os cards organizados **um abaixo do outro**.
-
-
-
-
-## Identidade visual
-
-
-
-
-- Cor amarela principal: `#fef101`
-
-- Cor vermelha principal: `#ec2024`
-
-- Fundo predominante: preto profundo, com variações em vermelho escuro
-
-- Textos principais: branco
-
-- Textos secundários: branco com transparência
-
-- Tipografia: `Montserrat`, com títulos em peso `700` ou `800`
-
-- Estética: política, popular, forte, confiável e contemporânea
-
-- Aplicar brilhos suaves, sombras, gradientes escuros e detalhes luminosos nas cores da identidade
-
-- Usar cantos bem arredondados e acabamento premium
-
-- Não utilizar outras cores de destaque além de `#fef101` e `#ec2024`
-
-
-
-
-## Estrutura da página
-
-
-
-
-### Fundo
-
-
-
-
-Usar fundo preto com uma imagem política/cinematográfica em baixa opacidade. Aplicar uma sobreposição escura para garantir legibilidade e adicionar brilhos radiais discretos em vermelho nas laterais.
-
-
-
-
-### Cabeçalho
-
-
-
-
-Centralizar o conteúdo no topo da página.
-
-
-
-
-- Foto ou marca de Wellington Oliveira
-
-- Nome em destaque: **Wellington Oliveira**
-
-- Texto institucional curto: **Trabalho, compromisso e presença ao lado do povo.**
-
-- Chamada principal em duas linhas:
-
-
-
-
-  **Juntos por uma nova história.**  
-
-  <span style="color:#fef101">A Bahia pode mais.</span>
-
-
-
-
-Adicionar uma pequena faixa de três diferenciais, com ícones lineares amarelos:
-
-
-
-
-- Compromisso com as pessoas
-
-- Desenvolvimento para a Bahia
-
-- Trabalho com transparência
-
-
-
-
-## Cards de links
-
-
-
-
-Criar exatamente **4 cards**, empilhados verticalmente, com espaçamento uniforme entre eles. Todos devem ser clicáveis e abrir o destino em uma nova aba.
-
-
-
-
-Cada card deve ter:
-
-
-
-
-- Altura aproximada de `220px`
-
-- Largura total do container
-
-- Bordas arredondadas de `24px`
-
-- Borda fina em `#ec2024`
-
-- Fundo em gradiente preto e vermelho escuro
-
-- Imagem temática posicionada à direita
-
-- Gradiente escuro da esquerda para a direita sobre a imagem
-
-- Conteúdo alinhado à esquerda
-
-- Selo pequeno em amarelo, com texto em caixa alta
-
-- Título branco, grande e em negrito
-
-- Descrição curta em branco com transparência
-
-- Botão circular com seta no canto inferior direito
-
-- Botão com borda `#fef101` e ícone na mesma cor
-
-- Efeito hover com leve elevação, brilho vermelho e deslocamento da seta
-
-
-
-
-### Card 1 — Conheça nossas propostas
-
-
-
-
-- Selo: **PLANO DE GOVERNO**
-
-- Título: **Conheça nossas propostas**
-
-- Descrição: **Veja as ideias e os compromissos para construir uma Bahia mais forte e justa.**
-
-- Imagem sugerida: Wellington Oliveira apresentando propostas ou conversando com a população
-
-- Link: `[INSERIR_LINK_DAS_PROPOSTAS]`
-
-
-
-
-### Card 2 — Ajude a caminhada de Wellington Oliveira
-
-
-
-
-- Selo: **FAÇA PARTE**
-
-- Título: **Ajude a caminhada de Wellington Oliveira**
-
-- Descrição: **Participe, mobilize sua comunidade e venha construir esse projeto com a gente.**
-
-- Imagem sugerida: caminhada política com apoiadores, bandeiras e presença popular
-
-- Link: `[INSERIR_LINK_DE_APOIO_OU_WHATSAPP]`
-
-
-
-
-### Card 3 — Autoescola Aliança
-
-
-
-
-- Selo: **NOSSA HISTÓRIA**
-
-- Título: **Autoescola Aliança**
-
-- Descrição: **Conheça uma trajetória marcada por educação, responsabilidade e compromisso com o trânsito.**
-
-- Imagem sugerida: veículo de autoescola, volante ou cena de formação de condutores
-
-- Link: `[INSERIR_LINK_DA_AUTOESCOLA_ALIANCA]`
-
-
-
-
-### Card 4 — PL 1452/2025
-
-
-
-
-- Selo: **ATUAÇÃO POLÍTICA**
-
-- Título: **PL 1452/2025**
-
-- Descrição: **Conheça o projeto, seus objetivos e os benefícios que ele propõe para a sociedade.**
-
-- Imagem sugerida: plenário, documento legislativo ou Wellington Oliveira em atuação política
-
-- Link: `[INSERIR_LINK_DO_PL_1452_2025]`
-
-
-
-
-## Rodapé
-
-
-
-
-Adicionar um rodapé discreto e centralizado:
-
-
-
-
-**© 2026 Wellington Oliveira. Todos os direitos reservados.**
-
-
-
-
-Abaixo do texto, incluir uma linha curta em `#ec2024` com brilho suave.
-
-
-
-
-## Responsividade e acessibilidade
-
-
-
-
-- Limitar o conteúdo a aproximadamente `520px` de largura no desktop
-
-- Manter a experiência otimizada para celular
-
-- Garantir contraste adequado entre textos, imagens e fundos
-
-- Adicionar textos alternativos nas imagens
-
-- Exibir foco visível em amarelo nos links
-
-- Respeitar a preferência do usuário por redução de movimento
-
-- Não usar carrossel, grade ou cards lado a lado
-
-- Preservar sempre a ordem dos quatro cards apresentada acima
-
-
-
-
-## Resultado esperado
-
-
-
-
-Uma página de links política elegante e impactante, visualmente fiel ao modelo fornecido, com atmosfera escura, detalhes vermelhos e amarelos, imagens integradas aos cards e os quatro links exibidos em uma única coluna.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/875b2b09-f538-47d4-91e1-180a3baaff9c).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+# Wellington Oliveira — Links Oficiais
+
+Landing page oficial de Wellington Oliveira, criada para reunir propostas, canais de apoio, trajetória profissional e atuação política em uma experiência rápida e otimizada para dispositivos
+móveis.
+
+O projeto apresenta uma interface moderna e responsiva, alinhada à identidade visual da campanha, com navegação direta para os principais conteúdos e canais oficiais.
+
+## Funcionalidades
+
+- Layout mobile-first, responsivo e limitado a uma coluna para facilitar a navegação.
+- Hero institucional com identidade visual da campanha.
+- Cards com acesso aos principais conteúdos:
+  - propostas e plano de governo;
+  - página de apoio à campanha;
+  - perfil da Autoescola Aliança;
+  - tramitação do PL 1452/2025 na Câmara dos Deputados.
+- Links externos abertos com segurança em uma nova aba.
+- Metadados para mecanismos de busca e compartilhamento em redes sociais.
+- Renderização no servidor com TanStack Start.
+- Tratamento global de erros no cliente e no servidor.
+- Proteção CSRF para funções executadas no servidor.
+- Acessibilidade com foco visível, textos alternativos e respeito à preferência de redução de
+  movimento.
+
+## Tecnologias
+
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TanStack Start](https://tanstack.com/start)
+- [TanStack Router](https://tanstack.com/router)
+- [TanStack Query](https://tanstack.com/query)
+- [Vite](https://vite.dev/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Lucide React](https://lucide.dev/)
+- [Nitro](https://nitro.build/)
+
+## Estrutura do projeto
+
+```text
+.
+├── public/                    # Arquivos públicos
+├── src/
+│   ├── assets/                # Imagens e elementos visuais
+│   ├── components/ui/         # Componentes reutilizáveis de interface
+│   ├── hooks/                 # Hooks personalizados
+│   ├── lib/                   # Utilitários e tratamento de erros
+│   ├── routes/
+│   │   ├── __root.tsx         # Layout raiz, metadados e error boundaries
+│   │   └── index.tsx          # Página principal
+│   ├── router.tsx             # Configuração do roteador
+│   ├── server.ts              # Entrada SSR e tratamento de erros do servidor
+│   ├── start.ts               # Middlewares da aplicação
+│   └── styles.css             # Tema, tokens e estilos globais
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
+> `src/routeTree.gen.ts` é gerado automaticamente pelo TanStack Router e não deve ser editado
+> manualmente.
+
+## Como executar localmente
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) 20 ou superior
+- npm
+
+### Instalação
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd wellington-oliveira-hub
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+
+```bash
 npm run dev
 ```
+
+O terminal exibirá o endereço local da aplicação, normalmente `http://localhost:3000`.
+
+## Scripts disponíveis
+
+| Comando             | Descrição                                            |
+| ------------------- | ---------------------------------------------------- |
+| `npm run dev`       | Inicia o ambiente de desenvolvimento com Vite.       |
+| `npm run build`     | Gera a versão otimizada para produção.               |
+| `npm run build:dev` | Gera uma build utilizando o modo de desenvolvimento. |
+| `npm run preview`   | Executa localmente a build de produção.              |
+| `npm run lint`      | Verifica o código com ESLint.                        |
+| `npm run format`    | Formata os arquivos com Prettier.                    |
+
+## Build de produção
+
+```bash
+npm run build
+npm run preview
+```
+
+Os artefatos de produção são gerados em `.output/`. A configuração atual utiliza Nitro com destino
+padrão para Cloudflare.
+
+## Links integrados
+
+- [Propostas de Wellington Oliveira](https://wellingtonoliveira.com.br/wellington)
+- [Apoie Wellington Oliveira](https://queroapoiar.com.br/wellingtonoliveira)
+- [Autoescola Aliança no Instagram](https://www.instagram.com/autoescolaaliancaonline)
+- [PL 1452/2025 na Câmara dos Deputados](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2494375)
+
+## Desenvolvimento com Lovable
+
+Este projeto está conectado ao [Lovable](https://lovable.dev/). Ele pode ser editado localmente ou
+diretamente no [editor do projeto](https://lovable.dev/projects/875b2b09-f538-47d4-91e1-180a3baaff9c).
+
+Alterações enviadas para a branch conectada no GitHub são sincronizadas com o Lovable. Para
+preservar o histórico do projeto, evite reescrever commits já publicados com `push --force`, rebase,
+amend ou squash.
+
+## Qualidade e acessibilidade
+
+Antes de publicar alterações, execute:
+
+```bash
+npm run lint
+npm run build
+```
+
+Ao contribuir, preserve:
+
+- contraste adequado entre texto e imagens;
+- navegação por teclado e indicadores de foco;
+- textos alternativos relevantes;
+- experiência responsiva em telas pequenas;
+- suporte a `prefers-reduced-motion`.
+
+## Autor
+
+Projeto desenvolvido para **Wellington Oliveira**.
+
+---
+
+© 2026 Wellington Oliveira. Todos os direitos reservados.

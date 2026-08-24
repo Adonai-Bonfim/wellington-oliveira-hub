@@ -6,7 +6,7 @@
 
 /*
  * Design system - Wellington Oliveira Links
- * Cores: amarelo #fef101 e vermelho #ec2024 sobre fundo escuro
+ * Identidade PSB: amarelo #fef00b e vermelho #ed1f25 sobre fundo claro
  */
 
 @theme inline {
@@ -50,31 +50,31 @@
 :root {
   --radius: 1.5rem;
 
-  --campaign-yellow: #fef101;
-  --campaign-red: #ec2024;
+  --campaign-yellow: #fef00b;
+  --campaign-red: #ed1f25;
   --campaign-red-dark: #5a0a0c;
-  --campaign-black: #0a0a0a;
-  --campaign-red-glow: rgba(236, 32, 36, 0.35);
+  --campaign-black: #241516;
+  --campaign-red-glow: rgba(237, 31, 37, 0.18);
 
-  --background: #0a0a0a;
-  --foreground: #ffffff;
-  --card: #0f0f0f;
-  --card-foreground: #ffffff;
-  --popover: #141414;
-  --popover-foreground: #ffffff;
-  --primary: #fef101;
+  --background: #fffaf1;
+  --foreground: #281719;
+  --card: #ffffff;
+  --card-foreground: #281719;
+  --popover: #ffffff;
+  --popover-foreground: #281719;
+  --primary: #fef00b;
   --primary-foreground: #0a0a0a;
-  --secondary: #1a0a0a;
-  --secondary-foreground: #ffffff;
-  --muted: rgba(255, 255, 255, 0.08);
-  --muted-foreground: rgba(255, 255, 255, 0.72);
-  --accent: #ec2024;
+  --secondary: #fff0e6;
+  --secondary-foreground: #281719;
+  --muted: rgba(40, 23, 25, 0.07);
+  --muted-foreground: rgba(40, 23, 25, 0.68);
+  --accent: #ed1f25;
   --accent-foreground: #ffffff;
-  --destructive: #ec2024;
+  --destructive: #ed1f25;
   --destructive-foreground: #ffffff;
-  --border: rgba(236, 32, 36, 0.45);
-  --input: rgba(255, 255, 255, 0.12);
-  --ring: #fef101;
+  --border: rgba(237, 31, 37, 0.28);
+  --input: rgba(40, 23, 25, 0.12);
+  --ring: #ed1f25;
 }
 
 @layer base {
@@ -115,7 +115,7 @@
 }
 
 @utility glow-red-strong {
-  box-shadow: 0 0 60px rgba(236, 32, 36, 0.5);
+  box-shadow: 0 0 60px rgba(237, 31, 37, 0.5);
 }
 
 @utility card-gradient {
@@ -123,9 +123,16 @@
 }
 
 @utility overlay-left {
-  background: linear-gradient(90deg, rgba(10, 10, 10, 0.98) 0%, rgba(10, 10, 10, 0.85) 45%, rgba(10, 10, 10, 0.25) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(37, 16, 18, 0.9) 0%,
+    rgba(37, 16, 18, 0.66) 48%,
+    rgba(37, 16, 18, 0.08) 100%
+  );
 }
 
 @utility shine-yellow {
-  box-shadow: 0 0 20px rgba(254, 241, 1, 0.25), inset 0 0 0 1px rgba(254, 241, 1, 0.4);
+  box-shadow:
+    0 0 20px rgba(254, 240, 11, 0.25),
+    inset 0 0 0 1px rgba(254, 240, 11, 0.4);
 }
