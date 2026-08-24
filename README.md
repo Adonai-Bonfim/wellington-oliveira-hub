@@ -19,8 +19,7 @@ O projeto apresenta uma interface moderna e responsiva, alinhada à identidade v
 - Renderização no servidor com TanStack Start.
 - Tratamento global de erros no cliente e no servidor.
 - Proteção CSRF para funções executadas no servidor.
-- Acessibilidade com foco visível, textos alternativos e respeito à preferência de redução de
-  movimento.
+- Acessibilidade com foco visível, textos alternativos e respeito à preferência de      redução de movimento.
 
 ## Tecnologias
 
@@ -101,8 +100,7 @@ npm run build
 npm run preview
 ```
 
-Os artefatos de produção são gerados em `.output/`. A configuração atual utiliza Nitro com destino
-padrão para Cloudflare.
+Os artefatos de produção são gerados em `.output/`. A configuração atual utiliza Nitro com destino padrão para Cloudflare.
 
 ## Links integrados
 
@@ -110,11 +108,6 @@ padrão para Cloudflare.
 - [Apoie Wellington Oliveira](https://queroapoiar.com.br/wellingtonoliveira)
 - [Autoescola Aliança no Instagram](https://www.instagram.com/autoescolaaliancaonline)
 - [PL 1452/2025 na Câmara dos Deputados](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2494375)
-
-## Desenvolvimento com Lovable
-
-Este projeto está conectado ao [Lovable](https://lovable.dev/). Ele pode ser editado localmente ou
-diretamente no [editor do projeto](https://lovable.dev/projects/875b2b09-f538-47d4-91e1-180a3baaff9c).
 
 Alterações enviadas para a branch conectada no GitHub são sincronizadas com o Lovable. Para
 preservar o histórico do projeto, evite reescrever commits já publicados com `push --force`, rebase,
