@@ -109,10 +109,6 @@ Os artefatos de produção são gerados em `.output/`. A configuração atual ut
 - [Autoescola Aliança no Instagram](https://www.instagram.com/autoescolaaliancaonline)
 - [PL 1452/2025 na Câmara dos Deputados](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2494375)
 
-Alterações enviadas para a branch conectada no GitHub são sincronizadas com o Lovable. Para
-preservar o histórico do projeto, evite reescrever commits já publicados com `push --force`, rebase,
-amend ou squash.
-
 ## Qualidade e acessibilidade
 
 Antes de publicar alterações, execute:

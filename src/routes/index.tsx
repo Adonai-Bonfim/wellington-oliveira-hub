@@ -4,7 +4,6 @@ import { ArrowUpRight, Users, MapPin, ShieldCheck } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import heroWellingtonCompleto from "@/assets/hero-wellington-completo.png";
 import logoWellingtonOliveira from "@/assets/logo-wellington-oliveira.png";
-import numero40888 from "@/assets/numero-40888.png";
 import propostasImg from "@/assets/propostas.jpg";
 import apoioImg from "@/assets/apoio.jpg";
 import autoescolaImg from "@/assets/autoescola.jpg";
@@ -124,7 +123,7 @@ function Index() {
             <img
               src={heroWellingtonCompleto}
               alt=""
-              className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover object-[60%_top]"
+              className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover"
               aria-hidden="true"
             />
 
@@ -135,12 +134,7 @@ function Index() {
               <img
                 src={logoWellingtonOliveira}
                 alt="Wellington Oliveira — candidato a deputado estadual"
-                className="mt-3 h-auto w-[212px] translate-x-[3%] translate-y-[2%] object-contain sm:mt-4 sm:w-[263px]"
-              />
-              <img
-                src={numero40888}
-                alt="Número 40888"
-                className="-mt-3 ml-[62px] h-auto w-[100px] translate-x-[3%] translate-y-[41%] object-contain sm:ml-[78px] sm:w-[123px]"
+                className="mt-3 h-auto w-[212px] origin-left -translate-x-[9%] translate-y-[2%] scale-[1.02] object-contain sm:mt-4 sm:w-[263px]"
               />
             </div>
 
@@ -163,7 +157,7 @@ function Index() {
 
             <div className="absolute bottom-[4.2rem] left-4 z-30 flex max-w-[46%] -translate-y-[2%] items-stretch gap-2.5 text-left sm:bottom-[5.2rem] sm:left-6 sm:max-w-[220px]">
               <span className="w-[3px] min-w-[3px] rounded-full bg-[#ffc400]" aria-hidden="true" />
-              <p className="font-['Montserrat',sans-serif] text-[clamp(12.1px,2.98vw,15.8px)] font-medium leading-[1.15] tracking-[-0.01em] text-[#d71920]">
+              <p className="origin-left scale-[0.92] font-['Montserrat',sans-serif] text-[clamp(12.1px,2.98vw,15.8px)] font-medium leading-[1.15] tracking-[-0.01em] text-[#d71920]">
                 Trabalho que <strong className="font-bold">transforma.</strong>
                 <span className="mt-0.5 block text-[#d71920]">
                   Futuro que <strong className="font-bold">inspira.</strong>
