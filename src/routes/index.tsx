@@ -123,7 +123,7 @@ function Index() {
             <img
               src={heroWellingtonCompleto}
               alt=""
-              className="pointer-events-none absolute inset-0 z-0 h-full w-full object-cover"
+              className="pointer-events-none absolute inset-0 z-0 h-full w-full translate-x-[2%] scale-[1.04] object-cover"
               aria-hidden="true"
             />
 
@@ -134,7 +134,7 @@ function Index() {
               <img
                 src={logoWellingtonOliveira}
                 alt="Wellington Oliveira — candidato a deputado estadual"
-                className="mt-3 h-auto w-[212px] origin-left -translate-x-[9%] translate-y-[2%] scale-[1.02] object-contain sm:mt-4 sm:w-[263px]"
+                className="mt-3 h-auto w-[212px] origin-left -translate-x-[7%] -translate-y-[2%] scale-[1.02] object-contain sm:mt-4 sm:w-[263px]"
               />
             </div>
 
