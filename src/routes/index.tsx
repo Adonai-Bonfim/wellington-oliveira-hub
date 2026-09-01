@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowUpRight, Users, MapPin, ShieldCheck } from "lucide-react";
+import { useState } from "react";
+import { ArrowUpRight, Check, MapPin, Share2, ShieldCheck, Users } from "lucide-react";
 
 import heroBg from "@/assets/hero-bg.jpg";
 import heroWellingtonCompleto from "@/assets/hero-wellington-completo.png";
@@ -7,6 +8,7 @@ import logoWellingtonOliveira from "@/assets/logo-wellington-oliveira.png";
 import propostasImg from "@/assets/propostas.jpg";
 import apoioImg from "@/assets/apoio.jpg";
 import autoescolaImg from "@/assets/autoescola.jpg";
+import contatoWellingtonImg from "@/assets/contato-wellington.png";
 import plImg from "@/assets/pl.jpg";
 
 export const Route = createFileRoute("/")({
@@ -92,6 +94,29 @@ const cards = [
 ];
 
 function Index() {
+  const [paginaCompartilhada, setPaginaCompartilhada] = useState(false);
+
+  async function compartilharPagina() {
+    const dados = {
+      title: "Wellington Oliveira - Links Oficiais",
+      text: "Conheça os links oficiais de Wellington Oliveira.",
+      url: window.location.href,
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(dados);
+      } else {
+        await navigator.clipboard.writeText(dados.url);
+      }
+
+      setPaginaCompartilhada(true);
+      window.setTimeout(() => setPaginaCompartilhada(false), 2500);
+    } catch (erro) {
+      if (erro instanceof DOMException && erro.name === "AbortError") return;
+    }
+  }
+
   return (
     <div className="relative min-h-screen overflow-x-hidden bg-background">
       {/* Background cinematográfico */}
@@ -266,7 +291,55 @@ function Index() {
         </section>
 
         {/* Rodapé */}
+        <section className="mt-5" aria-label="Contato">
+          <a
+            href="https://wa.me/557193548595"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative flex h-[220px] w-full flex-col items-start justify-center overflow-hidden rounded-3xl border border-[#fef00b] bg-[#ed1f25] p-5 text-left shadow-xl shadow-red-950/10 transition-all duration-300 hover:-translate-y-1 hover:bg-[#d71920] hover:shadow-2xl focus-visible:rounded-3xl"
+            aria-label="Entrar em contato pelo WhatsApp no número +55 71 9354-8595"
+          >
+            <img
+              src={contatoWellingtonImg}
+              alt=""
+              className="absolute inset-y-0 right-0 h-full w-[48%] translate-x-[-8%] translate-y-[10%] scale-[1.26] object-cover object-[center_28%] transition-transform duration-500"
+              aria-hidden="true"
+            />
+            <span
+              className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[#ed1f25] from-38% via-[#ed1f25]/35 via-54% to-transparent to-72%"
+              aria-hidden="true"
+            />
+            <span className="relative z-10 inline-block rounded-full border border-[#fef00b] px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-[#fef00b]">
+              Tem dúvidas?
+            </span>
+            <span className="relative z-10 mt-4 block text-xs font-extrabold uppercase tracking-wider text-white">
+              Fale conosco
+            </span>
+            <span className="relative z-10 mt-1 block text-4xl font-extrabold leading-none text-[#fef00b]">
+              Contato
+            </span>
+            <span className="relative z-10 mt-3 block max-w-[58%] text-xs font-medium text-white/80">
+              Estamos prontos para te atender!
+            </span>
+            <span className="absolute bottom-5 right-5 z-10 flex h-11 w-11 items-center justify-center rounded-full border-2 border-[#fef00b] transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:shadow-lg">
+              <ArrowUpRight
+                className="h-5 w-5 text-[#fef00b] transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                strokeWidth={2.5}
+              />
+            </span>
+          </a>
+        </section>
+
         <footer className="mt-10 flex flex-col items-center text-center">
+          <button
+            type="button"
+            onClick={compartilharPagina}
+            className="mb-6 flex items-center gap-2 rounded-full border border-[#ed1f25]/25 bg-white/80 px-5 py-3 text-sm font-bold text-[#ed1f25] shadow-md transition-all duration-300 hover:-translate-y-0.5 hover:bg-white hover:shadow-lg"
+            aria-live="polite"
+          >
+            {paginaCompartilhada ? <Check className="h-4 w-4" /> : <Share2 className="h-4 w-4" />}
+            {paginaCompartilhada ? "Link copiado!" : "Compartilhar página"}
+          </button>
           <p className="text-xs font-medium text-[#281719]/55">
             © 2026 Wellington Oliveira. Todos os direitos reservados.
           </p>
